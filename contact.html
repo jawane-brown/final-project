@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact Form</title>
   <link rel="stylesheet" href="screen.css">
 </head>
 <body>
-  <h2>Contact Me</h2>
+  <header>
+    <h2>Contact Me</h2>
+  </header>
+
   <form action="/submit-form" method="POST">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
@@ -27,11 +33,15 @@
     <input type="submit" value="Submit">
   </form>
 
-  <div>
+  <section>
+    <h3>Contact Information:</h3>
     <p>Email: <a href="mailto:your-email@example.com">jawanebrownjr@gmail.com</a></p>
     <p>Find me on <a href="https://www.linkedin.com/in/jawane-brown-072025247">LinkedIn!</a></p>
     <p>Find me on <a href="https://app.joinhandshake.com/stu/users/25680618">Handshake!</a></p>
-  </div>
+  </section>
 
+  <footer>
+    <p>&copy; 2023 Jawane Brown Jr. All rights reserved.</p>
+  </footer>
 </body>
 </html>
